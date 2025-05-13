@@ -1,8 +1,7 @@
 <?php
 defined('BASEPATH')OR exit('No direct script access allowed');
 
-class Auth extends CI_Controller{
-
+class home_berita extends CI_Controller{
     public function __construct(){
         parent::__construct();
         $this->load->model('HomeBerita_model');
@@ -11,7 +10,7 @@ class Auth extends CI_Controller{
     public function index(){
         $data['berita'] = $this->HomeBerita_model->get_all();
         $this->load->view('layout/header');
-        $this->load->view('home/index');
+        $this->load->view('home/index', $data);
         $this->load->view('layout/footer');
     }
 
