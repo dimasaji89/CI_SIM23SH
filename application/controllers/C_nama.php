@@ -4,7 +4,7 @@ class C_nama extends CI_Controller{
         ?>
         <html>
             <head>
-                <tittle>Nama : Dany Nur Syahfrudin Alamat : Cimone</title><br>
+                <tittle>Nama : Dimas Aji Permana Alamat : Cikupa</title><br>
     </head>
     <body>
         <?php;echo "hello world"; ?>
