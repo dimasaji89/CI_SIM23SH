@@ -56,6 +56,10 @@
                 <label for="pengirim">Pengirim</label>
                 <input type="text" class="form-control" name="pengirim" id ="pengirim" placeholder="Pengirim" required>
             </div>
+            <div class="form-group">
+                <label for="pengirim">Tanggal Publish</label>
+                <input type="date" class="form-control" name="tanggal_publish" id ="tanggal_publish" placeholder="Tanggal Publish" required>
+            </div>
             <div class="box-footer">
                 <button type="submit" class="btn btn-primary">Simpan</button>
             </div>
